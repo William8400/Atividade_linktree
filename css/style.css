@@ -7,7 +7,7 @@
     --font_texte: "Delius", cursive;
 }
 #conteudo_principal{
-    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(60, 60, 252),rgb(252, 0, 0));
     height: 100vh;
 
     display: grid;
