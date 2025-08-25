@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aliceblue;
+
+#conteudo_principal{
+    background-image: linear-gradient(red,blue);
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 1fr;
 }
-#conteudo_principal{}
