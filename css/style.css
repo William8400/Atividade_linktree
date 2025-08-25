@@ -12,9 +12,17 @@
 
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
     place-items: center center;
 }
 
 #conteudo_principal p{ 
     font-family: var(--font_texte);
+}
+
+#foto figure img{
+    height: 200px;
+    width: 200px;
+    border-radius: 2px solid black;
+    border-radius: 50%;
 }
