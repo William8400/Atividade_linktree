@@ -3,11 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --font_texte: "Delius", cursive;
+}
 #conteudo_principal{
     background-image: linear-gradient(red,blue);
     height: 100vh;
-    
+
     display: grid;
     grid-template-columns: 1fr;
+    place-items: center center;
+}
+
+#conteudo_principal p{ 
+    font-family: var(--font_texte);
 }
